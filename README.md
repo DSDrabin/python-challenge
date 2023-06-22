@@ -14,7 +14,7 @@ The script analyses financial data from a CSV file and generates a summary of th
 
 1. Ensure that you have Python 3.x installed on your system.
 
-2. Place the CSV file containing the financial data in the same directory as the script.
+2. Place the "budget_data.csv" file containing the financial data in the same directory as the script.
 
 3. Open a command line or terminal and navigate to the directory where the script is located.
 
@@ -42,7 +42,7 @@ The script performs election analysis on a CSV file containing election data. It
 ## Prerequisites
 
 - Python 3.x
-- CSV file containing election data (e.g., `election_data.csv`)
+- CSV file containing election data (`election_data.csv`)
 
 ## Getting Started
 
