@@ -2,8 +2,8 @@
 import os # Import the os module
 import csv # Module for reading CSV file
 
-budget_data_csv_file_path = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyBank\Resources\budget_data.csv"
-analysis_results_text_file_path = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyBank\Analysis\Financial_Analysis_Results.txt"
+budget_data_csv_file_path = r"C:\Users\drabi\Assignments\Week3Challenge\PyBank\Resources\budget_data.csv"
+analysis_results_text_file_path = r"C:\Users\drabi\Assignments\Week3Challenge\PyBank\analysis\Financial_Analysis_Results.txt"
 
 # Initialize variables
 total_months = 0
