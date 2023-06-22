@@ -4,6 +4,7 @@ import csv  # Module for reading CSV files
 
 # Read the CSV file
 election_data_csv = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyPoll\Resources\election_data.csv"
+election_results_text_file_path = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyPoll\analysis\Election_Results.txt"
 
 with open(election_data_csv, 'r') as file:  # Open the CSV file for reading
     csv_reader = csv.reader(file)   # Create a CSV reader object for the opened file
@@ -57,10 +58,10 @@ print(f"Winner: {winner}")
 print("-------------------------\n")
 
 # Write the election results to a text file
-election_results_file = "election_results.txt"
+#election_results_file = "election_results.txt"
 
 # Open the file in write mode, creating it if it doesn't exist, and assign it to the 'file' variable
-with open(election_results_file, 'w') as file:
+with open(election_results_text_file_path, 'w') as file:
     file.write("Election Results\n")
     file.write("-------------------------\n")
     file.write(f"Total Votes: {total_votes}\n")
