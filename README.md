@@ -34,6 +34,7 @@ The financial analysis will provide the following information:
 - Greatest Increase in Profits: The month and amount of the greatest increase in profits.
 - Greatest Decrease in Profits: The month and amount of the greatest decrease in profits.
 
+Please refer to the `Financial_Analysis_Results.txt` file for detailed results.
 
 # PyPoll
 # PyPoll Readme
