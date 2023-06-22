@@ -3,8 +3,8 @@ import os   # Importing the os module to create file paths across operating syst
 import csv  # Module for reading CSV files
 
 # Read the CSV file
-election_data_csv = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyPoll\Resources\election_data.csv"
-election_results_text_file_path = r"C:\Users\drabi\OneDrive\Desktop\Bootcamp\Assignments\Week3Challenge\PyPoll\analysis\Election_Results.txt"
+election_data_csv = r"C:\Users\drabi\Assignments\Week3Challenge\PyPoll\Resources\election_data.csv"
+election_results_text_file_path = r"C:\Users\drabi\Assignments\Week3Challenge\PyPoll\analysis\election_results.txt"
 
 with open(election_data_csv, 'r') as file:  # Open the CSV file for reading
     csv_reader = csv.reader(file)   # Create a CSV reader object for the opened file
